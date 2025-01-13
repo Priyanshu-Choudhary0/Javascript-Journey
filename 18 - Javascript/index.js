@@ -32,8 +32,8 @@ console.log(index);
 // Output: 2
 
 // SOME
-const numbers = [1, 2, 3, 4];
-const hasGreaterThanThree = numbers.some(num => num > 3);
+const numberSS = [1, 2, 3, 4];
+const hasGreaterThanThree = numberSS.some(num => num > 3);
 console.log(hasGreaterThanThree);
 // Output: true
 
@@ -44,9 +44,9 @@ console.log(allPositive);
 // Output: true
 
 // SORT
-const numbers = [4, 2, 1, 3];
+const numberS = [4, 2, 1, 3];
 numbers.sort((a, b) => a - b);
-console.log(numbers);
+console.log(numberS);
 // Output: [1, 2, 3, 4]
 
 // FLATMAP
